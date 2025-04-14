@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import { DataContext } from '../context/DataContext';
