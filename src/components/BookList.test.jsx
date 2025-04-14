@@ -14,10 +14,9 @@ const renderWithContext = (contextValue) => {
   );
 };
 
-// eslint-disable-next-line no-undef
+
 describe('BookList Component', () => {
 
-  // eslint-disable-next-line no-undef
   it('displays loading message when data is empty', () => {
     const contextValue = { data: [], filteredData: [] };
     renderWithContext(contextValue);
