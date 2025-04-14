@@ -1,0 +1,28 @@
+.books{
+    margin-left: 50px;
+}
+.allbooks{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(81, 81, 226);
+    cursor: pointer;
+    text-decoration: none;
+}
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+  }
+  .loading{
+    margin-left: 50px;
+    color: black;
+    font-size: 38px;
+
+  }
+  @media (max-width: 768px) {
+    .book-grid {
+      grid-template-columns: 0.7fr;
+      margin-left: 0px;
+    }
+  }
