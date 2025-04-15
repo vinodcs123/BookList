@@ -20,7 +20,7 @@ function App() {
       <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/books" element={<BookList />} />
-              {/* Add more routes here as needed */}
+          
             </Routes>
             </Router>
       </main>
