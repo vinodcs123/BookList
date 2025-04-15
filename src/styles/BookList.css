@@ -18,11 +18,10 @@
     margin-left: 50px;
     color: black;
     font-size: 38px;
-
   }
   @media (max-width: 768px) {
     .book-grid {
       grid-template-columns: 0.7fr;
-      margin-left: 0px;
+      margin: 0px;
     }
   }
