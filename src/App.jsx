@@ -4,7 +4,7 @@ import SideBar from './components/SideBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/App.css';
 
-import {DataProvider} from '../src/context/DataContext'
+import { DataProvider } from './context/DataProvider';
 import BookList from './components/BookList';
 import HomePage from './pages/HomePage';
 
